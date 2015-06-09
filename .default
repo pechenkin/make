@@ -1,0 +1,12 @@
+[submodule "libfoo"]
+	path = libfoo
+	url = git@git-common.relex.ru/libfoo.git
+[submodule "libbar"]
+	path = libbar
+	url = git@git-common.relex.ru/libbar.git
+[submodule "application"]
+	path = application
+	url = git@git-common.relex.ru/application.git
+[submodule "demo"]
+	path = demo
+	url = git@git-common.relex.ru/demo.git
