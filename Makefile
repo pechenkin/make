@@ -23,3 +23,5 @@ clean:
 
 $(foreach mod,$(MODS),$(eval $(call gen-dep,$(mod))))
 
+$(eval .PHONY: $(foreach mod,$(MODS), $(mod)))
+
