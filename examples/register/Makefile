@@ -45,6 +45,8 @@ $(foreach mod,$(MODS),$(eval $(call set-default,$(mod))))
 
 all: $(MODS);
 
+clean:
+	$(RM) $(MODFILE)
 
 $(foreach mod,$(MODS),$(eval $(call gen-dep,$(mod))))
 
