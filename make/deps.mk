@@ -1,5 +1,5 @@
 submodule.project.deps = application demo
-submodule.demo.deps = application
+submodule.demo.deps = 
 submodule.application.deps = libfoo libbar
 submodule.libfoo.deps = 
 submodule.libbar.deps = 
