@@ -1,4 +1,4 @@
-First, generate .gitmodule file. Execute command:
+First, generate .gitmodules file. Execute command:
     make config MODULE=<modname>
 Available modules are: project, demo, application, libfoo, libbar.
 Next, clone module:
