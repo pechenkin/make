@@ -1,5 +1,6 @@
-MODURLPREFIX ?= git@git-common.relex.ru/
+MODURLPREFIX ?= https://github.com/pechenkin/
 MODFILE   ?= .gitmodules
+submodule.project.url = $(MODURLPREFIX)make.git
 
 MODS = project application libfoo libbar demo 
 
@@ -22,9 +23,9 @@ define tmpl.url
 endef
 
 define submodule-set 
-submodule.$(1).name  := $(2) 
-submodule.$(1).path  := $(3) 
-submodule.$(1).url   := $(4) 
+submodule.$(1).name  ?= $(2) 
+submodule.$(1).path  ?= $(3) 
+submodule.$(1).url   ?= $(4) 
 endef 
 
 define set-default 
