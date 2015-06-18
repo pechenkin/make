@@ -8,5 +8,5 @@ To "build" all modules, use:
 To "build" one module with name <modname>, use:
     make <modname>
 
-
+http://habrahabr.ru/company/relex/blog/260311/
 
